@@ -1,5 +1,21 @@
-# Object file
-*.o
+node_modules
 
-# Ada Library Information
-*.ali
+# dependencies, yarn, etc
+# yarn / eslint
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+.eslintcache
+.vscode/**
+.DS_Store
+packages/hardhat/.env
+packages/nextjs/.env
+packages/hardhat/artifacts
+packages/hardhat/cache
+packages/hardhat/deployments
+packages/hardhat/typechain-types
+packages/nextjs/node_modules
+packages/nextjs/.next
